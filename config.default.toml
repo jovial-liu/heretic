@@ -151,6 +151,9 @@ column = "text"
 #
 # Each "dataset" below can be a Hugging Face dataset ID, a path to a dataset on disk,
 # or a path to a plain text file with one prompt per line (empty lines are ignored).
+# On Windows, use single-quoted TOML literal strings for paths with backslashes:
+# dataset = 'F:\heretic\dataset-pairgood_train.txt'
+# Double-quoted TOML strings require escaping every backslash (\\).
 # For text files, "column" is ignored and "split" is optional; when given, it selects
 # a subset of the lines using slice notation (e.g. "[:400]").
 # "config" specifies a dataset's specific config/subset name (e.g. "english", "hindi").
