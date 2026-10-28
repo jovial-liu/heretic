@@ -107,8 +107,7 @@ is valid. On Windows, use forward slashes or TOML literal strings for paths
 (e.g. `'C:\data\bad.txt'`); bare backslashes inside TOML double-quoted
 strings are escape characters.
 
-For help, open a [GitHub issue](https://github.com/p-e-w/heretic/issues) or
-ask in the [Discord](https://discord.gg/gdXc48gSyT) or
-[Matrix](https://matrix.to/#/#heretic:matrix.org) community. Include the
-Heretic version, the command you ran, the error, and a minimal redacted
-`config.toml`. Remove tokens, private prompts, and local personal paths.
+For configuration help, ask a general question in the
+[Discord](https://discord.gg/gdXc48gSyT) community. Provide the Heretic
+version, error, and a minimal redacted `config.toml` if requested. Remove
+tokens, private prompts, and local personal paths before sharing.
