@@ -113,6 +113,8 @@ Heretic has a variety of configuration parameters that can be changed for
 greater control. Run `heretic --help` to see available command-line options,
 or look at [`config.default.toml`](config.default.toml) if you prefer to use
 a configuration file.
+For a step-by-step example with local datasets, see the
+[configuration guide](docs/configuration.md).
 
 At the start of a program run, Heretic benchmarks the system to determine
 the optimal batch size to make the most of the available hardware.
