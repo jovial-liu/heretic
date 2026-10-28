@@ -104,7 +104,7 @@ start with the default scorers unless you need the extra measurement.
 If a configuration fails, first check that `config.toml` is in the process's
 working directory, that paths point to existing files, and that the TOML syntax
 is valid. On Windows, use forward slashes or TOML literal strings for paths
-(e.g. `'C:\\data\\bad.txt'`); bare backslashes inside TOML double-quoted
+(e.g. `'C:\data\bad.txt'`); bare backslashes inside TOML double-quoted
 strings are escape characters.
 
 For help, open a [GitHub issue](https://github.com/p-e-w/heretic/issues) or
