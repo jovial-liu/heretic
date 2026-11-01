@@ -96,6 +96,7 @@ from .reproduce import (
     load_reproduction_information,
 )
 from .system import empty_cache, get_accelerator_info
+from .trial_selection import select_pareto_trial
 from .utils import (
     ask_if_unset,
     format_dataset_specification,
@@ -857,7 +858,7 @@ def run():
                 trial = ask_if_unset(
                     None
                     if settings.trial_index is None
-                    else sorted_trials[settings.trial_index],
+                    else select_pareto_trial(sorted_trials, settings.trial_index),
                     questionary.select(
                         "Which trial do you want to use?",
                         choices=choices,
